@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:get/get.dart';
-import 'package:weather_app/controller/weather_controller.dart';
-import 'package:weather_app/core/colors.dart';
-import 'package:weather_app/widgets/comfort_level.dart';
-import 'package:weather_app/widgets/current_weather.dart';
-import 'package:weather_app/widgets/daily_weather.dart';
-import 'package:weather_app/widgets/header.dart';
-import 'package:weather_app/widgets/hourly_weather.dart';
+import 'package:weather_app_flutter/controller/weather_controller.dart';
+import 'package:weather_app_flutter/core/colors.dart';
+import 'package:weather_app_flutter/widgets/comfort_level.dart';
+import 'package:weather_app_flutter/widgets/current_weather.dart';
+import 'package:weather_app_flutter/widgets/daily_weather.dart';
+import 'package:weather_app_flutter/widgets/header.dart';
+import 'package:weather_app_flutter/widgets/hourly_weather.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

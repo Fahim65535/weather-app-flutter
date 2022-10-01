@@ -1,13 +1,12 @@
 import 'dart:convert';
 
-import 'package:weather_app/api/api_key.dart';
-import 'package:weather_app/core/constants.dart';
-import 'package:weather_app/core/strings.dart';
-import 'package:weather_app/model/weather_data.dart';
 import 'package:http/http.dart' as http;
-import 'package:weather_app/model/weather_data_current.dart';
-import 'package:weather_app/model/weather_data_daily.dart';
-import 'package:weather_app/model/weather_data_hourly.dart';
+import 'package:weather_app_flutter/core/strings.dart';
+
+import 'package:weather_app_flutter/model/weather_data.dart';
+import 'package:weather_app_flutter/model/weather_data_current.dart';
+import 'package:weather_app_flutter/model/weather_data_daily.dart';
+import 'package:weather_app_flutter/model/weather_data_hourly.dart';
 
 class FetchWeatherApi {
   WeatherData? weatherData;

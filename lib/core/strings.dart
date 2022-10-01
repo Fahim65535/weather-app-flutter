@@ -1,4 +1,4 @@
-import 'package:weather_app/api/api_key.dart';
+import 'package:weather_app_flutter/api/api_key.dart';
 
 import 'constants.dart';
 

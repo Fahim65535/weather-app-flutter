@@ -1,7 +1,7 @@
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
-import 'package:weather_app/api/fetch_weather.dart';
-import 'package:weather_app/model/weather_data.dart';
+import 'package:weather_app_flutter/api/fetch_weather.dart';
+import 'package:weather_app_flutter/model/weather_data.dart';
 
 class WeatherController extends GetxController {
   //create variables

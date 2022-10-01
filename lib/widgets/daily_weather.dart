@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:weather_app/core/colors.dart';
-import 'package:weather_app/model/weather_data_daily.dart';
+
+import 'package:weather_app_flutter/core/colors.dart';
+import 'package:weather_app_flutter/model/weather_data_daily.dart';
 
 class DailyWeatherWidget extends StatelessWidget {
   final WeatherDataDaily weatherDataDaily;

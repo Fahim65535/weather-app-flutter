@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:weather_app/screen/home_page.dart';
+
+import 'screen/home_page.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(

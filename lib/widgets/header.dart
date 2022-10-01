@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:weather_app/controller/weather_controller.dart';
+
+import 'package:weather_app_flutter/controller/weather_controller.dart';
 
 class HeaderWidget extends StatefulWidget {
   const HeaderWidget({super.key});
